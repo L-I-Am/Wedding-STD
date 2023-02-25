@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@font-face {
+  font-family: DallasTown;
+  src: url(../../fonts/Dallastown.ttf);
+}
+@font-face {
+  font-family: Dolce;
+  src: url(../../fonts/Dolce.ttf);
+}
+
 section {
   background-color: #ffffff;
 }
@@ -56,6 +65,10 @@ a, a:hover {
 .mbr-text {
   font-style: normal;
   line-height: 1.7;
+}
+
+.dallas {
+  font-family: DallasTown;
 }
 
 h1,
